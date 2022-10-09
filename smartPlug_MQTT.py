@@ -18,6 +18,7 @@ def terminer(signum, frame):
     GPIO.output(17, GPIO.LOW)
     GPIO.cleanup()
     sys.exit(0)
+    print('1')
 
 
 def on_alarm_message(client, userdata, message):
